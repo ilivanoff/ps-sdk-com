@@ -1,3 +1,6 @@
 [submodule "db/ps-sdk"]
 	path = db/ps-sdk
 	url = https://github.com/ilivanoff/ps-sdk-db.git
+[submodule "www/ps-content"]
+	path = www/ps-content
+	url = https://ilivanoff:Azazello!1985@github.com/ilivanoff/ps-sdk-content.git
