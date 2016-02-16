@@ -1,6 +1,8 @@
 @echo off
 
-git pull
-git submodule foreach git pull origin master
+git submodule init
+git submodule update
+git pull --recurse-submodules
+rem git submodule foreach git pull origin master
 
 @pause
